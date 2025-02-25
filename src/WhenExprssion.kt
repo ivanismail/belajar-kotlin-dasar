@@ -7,4 +7,10 @@ fun main() {
         'B'-> println("Good")
         else -> println("Upps")
     }
+
+    // when pengganti if else
+    when {
+        finalExam == 'A' -> println("Good")
+        else -> println("Upps")
+    }
 }
